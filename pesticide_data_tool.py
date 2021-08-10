@@ -35,12 +35,11 @@ def print_safe_pesticides(pesticide, pesticideList):
             print(pesticide["name"]) 
     if total_safe_pesticides == 0:
         no_safe_found = "There are currently no completely safe pesticides"\
-            + "recognized by the University of Hertfordshire's"\
-            + "Pesticide Properties Database."
+            + " recognized by the University of Hertfordshire's"\
+            + " Pesticide Properties Database."
         print (no_safe_found)
 
 pesticideList = []
-total_safe_pesticides = 0
 # The database does not have hazard levels for pesticides where data is not
 # yet available for a conclusive result, therfore all three parameters
 # are inconclusive by default.
